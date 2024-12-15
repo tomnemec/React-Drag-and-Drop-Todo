@@ -15,6 +15,7 @@ const TaskCard = ({ task }: Props) => {
       <div className="row">
         <div className="img"></div>
         <span className="user-name">John Doe</span>
+        <span>{task.status}</span>
       </div>
     </div>
   );
